@@ -1,29 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Home on Github</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brian Lamb — Software Professional</title>
+  <meta name="description" content="Brian Lamb — software professional based in New York. Automation, DevOps, and AI tooling. Projects, code, and links.">
+  <meta name="author" content="Brian Lamb">
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Brian Lamb — Software Professional">
+  <meta property="og:description" content="Software professional in NY. Automation, DevOps, and AI tooling.">
+  <meta property="og:url" content="https://brianlamb.github.io">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="wrap">
+
     <header>
-        <h1>Go Hugo - Go Github!</h1>
-        <p>Author: Brian Lamb</p>
+      <p class="eyebrow">Brian Lamb · New York</p>
+      <h1>I build tools that automate the boring parts.</h1>
+      <p class="tagline">
+        Software professional (and yoga instructor) working across automation,
+        DevOps, and AI tooling — from browser automations to self-hosted infra.
+      </p>
+      <nav class="links">
+        <a href="https://github.com/brianlamb" rel="me">GitHub</a>
+        <a href="https://brianlamb.io" rel="me">Website</a>
+        <a href="https://twitter.com/rocketmanblamb" rel="me">Twitter / X</a>
+        <a href="mailto:rocketmanblamb@gmail.com">Email</a>
+      </nav>
     </header>
 
-    <nav>
-        <!-- Navigation menu goes here -->
-    </nav>
-
     <main>
-        <!-- Content of the website goes here -->
+      <section class="about" id="about">
+        <h2>About</h2>
+        <p>
+          I’m a software professional based in New York who likes turning
+          repetitive, manual work into reliable, automated systems. My day-to-day
+          spans scripting, browser automation, infrastructure, and increasingly
+          the growing ecosystem of AI and LLM tooling.
+        </p>
+        <p>
+          Off the keyboard, I teach yoga — which is its own kind of debugging.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>Selected Projects</h2>
+        <div class="projects-grid">
+
+          <a class="card" href="https://github.com/brianlamb/wl-studio-ops">
+            <div class="card-head">
+              <h3>wl-studio-ops</h3>
+              <span class="lang">JavaScript</span>
+            </div>
+            <p>WellnessLiving tooling and browser automations for studio operations.</p>
+          </a>
+
+          <a class="card" href="https://github.com/brianlamb/ubuntuVM-autoinstall">
+            <div class="card-head">
+              <h3>ubuntuVM-autoinstall</h3>
+              <span class="lang">YAML</span>
+            </div>
+            <p>Hands-off Ubuntu VM provisioning via autoinstall configuration.</p>
+          </a>
+
+          <a class="card" href="https://github.com/brianlamb/macgo_rsyncgui">
+            <div class="card-head">
+              <h3>macgo_rsyncgui</h3>
+              <span class="lang">Go</span>
+            </div>
+            <p>A simple native macOS GUI wrapper around rsync.</p>
+          </a>
+
+          <a class="card" href="https://github.com/brianlamb/hb_encode.sh">
+            <div class="card-head">
+              <h3>hb_encode.sh</h3>
+              <span class="lang">Shell</span>
+            </div>
+            <p>A HandBrake batch encoding script for streamlining media conversion.</p>
+          </a>
+
+          <a class="card" href="https://github.com/brianlamb/dotvim">
+            <div class="card-head">
+              <h3>dotvim</h3>
+              <span class="lang">Vim Script</span>
+            </div>
+            <p>My personal Vim configuration and editor setup.</p>
+          </a>
+
+          <a class="card" href="https://github.com/brianlamb?tab=repositories">
+            <div class="card-head">
+              <h3>More on GitHub →</h3>
+              <span class="lang">42 repos</span>
+            </div>
+            <p>Experiments, forks, and works in progress across the stack.</p>
+          </a>
+
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Tools &amp; Tech</h2>
+        <div class="tags">
+          <span>JavaScript</span>
+          <span>Python</span>
+          <span>Go</span>
+          <span>Shell / Bash</span>
+          <span>Linux</span>
+          <span>DevOps</span>
+          <span>Automation</span>
+          <span>Self-hosting</span>
+          <span>AI / LLM tooling</span>
+          <span>Vim</span>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>© 2023 Brian Lamb -- </p>
-        <a href="https://github.com"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo"></a>
-        <a href="https://gohugo.io"><img src="https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo.png" alt="HUGO Site Generator Logo"></a>
-        <a href="https://twitter.com/rocketmanblamb">Follow me on Twitter</a>
+      <span>© 2026 Brian Lamb</span>
+      <span>
+        <a href="https://github.com/brianlamb">github.com/brianlamb</a>
+      </span>
     </footer>
+
+  </div>
 </body>
 </html>
